@@ -6,11 +6,18 @@
 	font-weight: normal;
 }
 
+img {
+	width: 272px;
+	height: 92px;
+	padding-top: 109px;
+}
+
 .search-field {
 	display: block;
 }
 
 .search-bar {
+	box-shadow: 2px 1px 1px #ccc8c8;
 }
 
 .search-field {
