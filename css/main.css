@@ -6,7 +6,37 @@
 	font-weight: normal;
 }
 
+.search-field {
+	display: block;
+}
+
 .search-bar {
-	width: 400px;
-	margin: 0 auto;
+}
+
+.search-field {
+	width: 632px;
+	padding: 2px 0 3px 0;
+	margin-top: -3px;
+	margin: auto;
+	font-family: arial,sans-serif;
+    color: #222;
+    font-size: small;
+}
+
+.button {
+	display: block;
+	padding-top: 18px;
+}
+
+.search-button {
+	background-color: #f1f1f1;
+    height: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #757575;
+    border: 1px solid #f1f1f1;
+    padding: 0 16px;
+    text-align: center;
+    display: inline-block;
+    font-family: arial,sans-serif;
 }
