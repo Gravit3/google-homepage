@@ -1,15 +1,70 @@
-.gmail {
-	font-weight: normal;
+body {
+	background: #fff;
+    color: #222;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-.images {
-	font-weight: normal;
+nav	{
+	float: right;
+	margin-right: 1.8%;
 }
 
-img {
+nav a {
+	display: inline;
+	text-decoration: none;
+	width: 100%;
+	height: 30px;
+	padding-left: 10px;
+	line-height: 24px;
+}
+
+#google-app {
+	height: 21px;
+	width: 21px;
+	top: 4px;
+	padding: 0;
+	position: relative;
+	opacity: 0.55;
+}
+
+#bell {
+	height: 30px;
+	width: 30px;
+	padding: 0;
+	top: 9px;
+	position: relative;
+	opacity: 0.55;
+}
+
+#google-app:hover {
+	opacity: 1;
+}
+
+#bell:hover {
+	opacity: 1;
+}
+
+.text-link:hover {
+	text-decoration: underline;
+}
+
+.img-container {
+	display: flex;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.googlelogo {
+	margin-top: 25%;
 	width: 272px;
 	height: 92px;
 	padding-top: 109px;
+	position: relative;
+	align-content: center;
 }
 
 .search-field {
@@ -46,4 +101,10 @@ img {
     text-align: center;
     display: inline-block;
     font-family: arial,sans-serif;
+}
+
+.search-button:hover {
+	color: black;
+	border: solid 1px #d8d5d5;
+	box-shadow: .1px 1px 1px #ccc8c8;
 }

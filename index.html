@@ -7,29 +7,33 @@
 </head>
 <body>
 	<header>
-		<div class="nav-bar">
-			<h5 class="gmail">Gmail</h5>
-			<h5 class="images">Images</h5>
-		</div>
+		<nav>
+			<a class="text-link" href="#">Gmail</a>
+			<a class="text-link" href="#">Images</a>
+			<a href="#">
+				<img id="google-app" src="images/google-app.png">
+			</a>
+			<a href="#">
+				<img id="bell" src="images/bell.png">
+			</a>
+		</nav>
 	</header>
 
 	<main>
-		<center>
-			<div class="img">
-				<img src="images/googlelogo.png">
+		<div class="img-container">
+			<img class="googlelogo" src="images/googlelogo.png">
+		</div>
+		<div class="search-field">
+			<div class="outer-search-bar">
+				<form class="search-bar" action="#" method="POST" name="search-bar">
+					<input class="search-field" type="text" name="search">
+				</form>
 			</div>
-			<div class="search-field">
-				<div class="outer-search-bar">
-					<form class="search-bar" action="#" method="POST" name="search-bar">
-						<input class="search-field" type="text" name="search">
-					</form>
-				</div>
-				<div class="button">
-					<button class="search-button" type="button">Google Search</button>
-					<button class="search-button" type="button">I'm Feeling Lucky</button>
-				</div>
+			<div class="button">
+				<button class="search-button" type="button">Google Search</button>
+				<button class="search-button" type="button">I'm Feeling Lucky</button>
 			</div>
-		</center>
+		</div>
 	</main>
 
 </body>
