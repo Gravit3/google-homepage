@@ -1,14 +1,15 @@
 body {
 	background: #fff;
-    color: #222;
-    font-family: arial,sans-serif;
-    font-size: 13px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+  color: #222;
+  font-family: arial , sans-serif;
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+    
 }
 
-nav	{
+/*nav	{
 	float: right;
 	margin-right: 1.8%;
 }
@@ -20,6 +21,22 @@ nav a {
 	height: 30px;
 	padding-left: 10px;
 	line-height: 24px;
+}*/
+
+.nav {
+	list-style: none;
+	text-align: right;
+	padding: 10px 0;
+}
+
+.nav li {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.nav li a {
+	text-decoration: none;
+	color: #000;
 }
 
 #google-app {
@@ -34,7 +51,7 @@ nav a {
 #bell {
 	height: 30px;
 	width: 30px;
-	padding: 0;
+	padding-left: 0px;
 	top: 9px;
 	position: relative;
 	opacity: 0.55;
@@ -53,54 +70,59 @@ nav a {
 }
 
 .img-container {
-	display: flex;
-    justify-content: center;
-    margin-left: 25%;
+  justify-content: center;
+  padding-top: 109px;
+  position: center;
 }
 
 .googlelogo {
-	margin-top: 25%;
 	width: 272px;
 	height: 92px;
-	padding-top: 109px;
 	position: relative;
-	align-content: center;
+	text-align: center;
 }
 
+/*
 .search-field {
 	display: block;
+    font-size: 18px;
 }
+*/
 
 .search-bar {
 	box-shadow: 2px 1px 1px #ccc8c8;
+	margin-top: 20px;
 }
 
 .search-field {
+    display: block;
 	width: 632px;
 	padding: 2px 0 3px 0;
-	margin-top: -3px;
 	margin: auto;
 	font-family: arial,sans-serif;
     color: #222;
-    font-size: small;
+    font-size: 18px;
+    padding-left: 10px;
+    height: 35px;
+    width: 500px;
 }
 
 .button {
 	display: block;
-	padding-top: 18px;
+	margin-top: 35px;
 }
 
 .search-button {
-	background-color: #f1f1f1;
-    height: 25px;
+    background-color: #f1f1f1;
     font-size: 13px;
     font-weight: bold;
     color: #757575;
     border: 1px solid #f1f1f1;
-    padding: 0 16px;
+    padding: 11px 16px;
     text-align: center;
     display: inline-block;
     font-family: arial,sans-serif;
+    margin: 11px 4px;
 }
 
 .search-button:hover {
@@ -108,3 +130,84 @@ nav a {
 	border: solid 1px #d8d5d5;
 	box-shadow: .1px 1px 1px #ccc8c8;
 }
+
+/*Footer*/
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #f1f1f1;
+	display: inline-block;
+	width: 100%;
+}
+
+.tp-ft {
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.tp-ft-ul {
+	padding-left: 20px;
+}
+
+.tp-ft li {
+	color: rgba(0,0,0,.54);
+	font-size: 15px;
+	line-height: 40px;
+	text-align: left;
+	margin: 0 15px;
+}
+
+.btm-ft {
+	display: inline-block; 
+	background-color: #f1f1f1;
+	width: 100%
+}
+
+.lft-ft {
+	padding-left: 25px;
+}
+
+.lft-ft-a {
+	list-style: none;
+	float: left;
+	margin: 13px 10px;
+}
+
+.lft-ft-a:hover {
+	text-decoration: underline;
+}
+
+.rght-ft {
+	padding-right: 25px;
+}
+
+.rght-ft-a {
+	list-style: none;
+	float: right;
+	margin: 13px 10px;
+}
+
+.rght-ft-a:hover {
+	text-decoration: underline;
+}
+
+footer nav ul li a {
+	text-decoration: none;
+	color: #757575;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
